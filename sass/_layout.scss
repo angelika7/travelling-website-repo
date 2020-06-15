@@ -1,0 +1,52 @@
+.header {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/header.png);
+    background-position: center;
+    position: relative;
+    background-repeat: no-repeat;
+
+    @media only screen and (min-width: $bp-extra-large) {
+        background-size: cover;
+    }
+}
+
+.container {
+    max-width: 117rem;
+    margin: 0 auto;
+
+    @media only screen and (max-width: $bp-small) {
+        max-width: 200rem;
+    }
+}
+
+.section-home {
+    margin-top: -4.5rem;
+    z-index: 10;
+}
+
+.section-destination {
+    background-color: var(--color-tertiary);
+}
+
+.section-contact {
+    background-image: linear-gradient(rgba(var(--color-primary-2), 0.8), rgba(var(--color-primary-2), 0.8)), url(../img/map2.png);
+    background-position: bottom;
+    background-size: cover;
+    padding-bottom: 8rem;     
+}
+
+.section-keep-in-touch {
+    background-color: var(--color-print-button);
+}
+
+.footer {
+    background-image: url(../img/mountain.png), linear-gradient(rgba(var(--color-dark-3), 1), rgba(var(--color-dark-3), 1)); 
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 24rem;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+

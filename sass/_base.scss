@@ -1,0 +1,68 @@
+//COLORS
+:root {
+    --color-white: #fff;
+    --color-light: #f6f6f6;
+    --color-primary: #01a2a6;
+    //-----------------------------
+    --color-primary-2: 1, 162, 166;
+    //----------------------------------------
+    --color-secondary: #29d9c2;
+    //-------------------------------
+    --color-tertiary: #f2fefe;
+    --color-dark: #10273d;
+    --color-main-button: #ffffa6;
+    --color-print-button: #c3f37f;
+    --color-yellow-1: #dacd7f;
+    --color-yellow-2: #aea25c;
+    --color-yellow-3: #f5e99e;
+    --color-yellow-intense: #fff772;
+    --color-border: #d5d57d;
+    --color-text-info: #a2a2a2;
+    --color-grey-light: #aeaeae;
+    --color-grey-light-2: #d2d9d9;
+    --color-grey-light-3: #acacac;
+    --color-grey-dark: #777777;
+    --color-grey-dark-2: #8c8c8c;
+    --color-grey-dark-3: #5d5c5c;
+    --color-black:#000;
+    --color-dark-2: #2f2933;
+    //--------------
+    --color-dark-3: 47, 41, 51;
+    --color-fb: #3C5A99;
+    --color-twitter: #1DA1F2;
+    --color-insta: #d62976;
+}
+
+@font-face {
+    font-family: 'Chunk';
+    src: url(../css/fonts/Chunk.otf);
+}
+$bp-extra-large: 96.6em; //1441px
+$bp-largest: 73.125em;  // 1170px
+$bp-large: 65.31em;    // 1045px
+$bp-medium-large: 61.88em;  //990px
+$bp-medium: 57.50em;   // 920px
+$bp-small-m: 43.75em;     // 700px
+$bp-small: 37.5em;     // 600px
+$bp-smallest: 31.25em; // 500px
+$bp-mobile: 28.125em; // < 450px
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; // 1rem = 10px, 10px/16px = 62.5%
+    scroll-behavior: smooth;
+}
+
+
+

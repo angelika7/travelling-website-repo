@@ -1,0 +1,24 @@
+{
+  "name": "travel-website",
+  "version": "1.0.0",
+  "description": "Website about travelling",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w",
+    "concat:css": "concat -o css/style.concat.css css/animate.css css/style.css",
+    "prefix:css": "postcss ./css/style.concat.css -o ./css/style.prefix.css"
+  },
+  "author": "Angelika Chochorowska",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^7.1.4",
+    "concat": "^1.0.3",
+    "grunt": "^1.1.0",
+    "grunt-contrib-cssmin": "^3.0.0",
+    "node-sass": "^4.10.0",
+    "postcss-cli": "^4.1.1"
+  },
+  "dependencies": {
+    "node": "^11.15.0"
+  }
+}
